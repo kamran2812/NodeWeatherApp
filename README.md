@@ -44,7 +44,7 @@ The **master branch** is the main branch of this repository, containing the proj
 
 ## Usage
 
-- Open your browser and navigate to `http://localhost:5000`.
+- Open your browser and navigate to `http://localhost:8000`.
 - Enter a city name in the search bar and click the "search" button to view the weather.
 
 
