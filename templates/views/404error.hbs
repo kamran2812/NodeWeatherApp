@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{>headerlink}}
+    <title>Weather App</title>
+</head>
+<body>
+    {{!-- navbar  --}}
+
+{{>navbar}}
+    <!-- main header -->
+    <div class="container-fluid main_header my-5">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto my-auto">
+                <div class="row">
+                    <!-- right side  -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errimg">
+                            <img src="images/error.png" alt="kami" class="img-fluid my-5" title="kamran">
+                        </figure>
+                    
+
+                    <!-- left side -->
+                    
+                        <p>Welcome to kamran coding world</p>
+                        <h1>{{errormsg}}</h1>
+                        <a href="https://www.fiverr.com/coding_world_01/be-your-favourite-react-js-node-js-or-mern-stack-developer" ><button>About Me</button></a>
+                    </div>
+
+                    
+
+                </div>
+
+    </div>
+    </div>
+    </div>
+
+    <!-- footer  -->
+ {{>footer}}
+</body>
+</html>

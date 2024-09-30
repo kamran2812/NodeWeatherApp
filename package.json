@@ -1,0 +1,17 @@
+{
+  "name": "expressweb",
+  "version": "1.0.0",
+  "description": "this is first app using node and express js",
+  "main": "src/app.js",  
+  "scripts": {
+    "start": "nodemon src/app.js",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kamran Abbas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.20"
+  }
+}
